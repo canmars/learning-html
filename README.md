@@ -1,1 +1,1 @@
-### Learning HTML Language 
+### DEÜ YBS Web Tasarım Teknikleri Dersi vize öncesi notları.
