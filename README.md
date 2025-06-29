@@ -1,1 +1,1 @@
-### DEÜ YBS Web Tasarım Teknikleri Dersi vize öncesi notları.
+### DEÜ YBS Web Tasarım Teknikleri Dersi Vize Öncesi Notları
