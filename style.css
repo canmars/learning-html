@@ -1,0 +1,120 @@
+/*id seciçiler*/
+
+#anasayfa{
+    color:red
+}
+
+/*class seciçiler*/
+
+.obje_1{
+    color: orange;
+}
+
+.obje_2{
+    color: yellow;
+}
+
+/*etiket seciçiler*/
+
+div{
+    background-color: whitesmoke;
+}
+
+/* body{
+    background-color:darkkhaki
+} */
+
+/*evrensel seçiçiler*/
+
+*{
+    margin:5;
+    padding: 5;
+}
+
+/*torun seciçiler*/
+
+ul li a{
+    color:red
+}
+
+/* h2 içindeki tüm hm'ler */
+
+h2 em{
+    color:red
+}
+
+/* h2 içindeki em'yi seçer. */
+
+h2>em{
+    color:blueviolet
+}
+
+/* burada da h2 em arasında strong varsa işe yaramaz mesela.  */
+
+h1+p+p+p{
+    color:green
+}
+
+/* özellik seçiciler */
+
+a[title]{
+    color:red
+}
+
+input[type="text"]{
+    color:blue;
+}
+
+input[value="Gönder"]{
+    color:blue;
+}
+
+a:link{
+    color:aqua
+}
+
+a:hover{
+    color:aqua
+}
+
+a:visited{
+    color:purple
+}
+
+a:active{
+    color:red
+}
+
+ul li a{
+    list-style-type: none;
+    background-color: purple;
+    border:1;
+    border-color: black;
+    margin:35px;
+    color:white
+}
+
+/* flex önemli */
+
+.esnek_kutu_kapsul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    border: 5px solid #0068ce;  
+    background-color: lightblue;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.esnek_kutu{
+    background-color: #fff;
+    text-align: center;
+    padding: 70px 0;
+    width: 190px;
+    margin-right: 15px;
+
+}
+.esnek_kutu:nth-child(4){
+    background-color: red;
+    flex-grow:5;
+}
